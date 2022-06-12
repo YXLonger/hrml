@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+       width: 100%;
+    height: 40px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+ li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.w{
+    width: 80%;
+    margin: 0 auto;
+}
+.top .w .top_left li{
+    float: left;
+    line-height: 40px;
+    cursor: pointer;
+}
+ .top .w .top_right li{
+    float: right;
+    line-height: 40px;
+    cursor: pointer;
+}
+.top .w ul li a{
+    color: #999;
+    font-size: 13px;
+    padding: 0 10px;
+    border-right: 1px solid #999;
+}
+.top .w ul li:hover a{
+    color: #fff;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+}
+.nav .w img:nth-child(1){
+    float: left;
+   margin-top: 22.5px;
+
+}
+ .nav .w img:nth-child(2){
+    float: left;
+    
+    margin-top: 17px;
+}
+.nav .w ul li{
+    float:left;
+    line-height: 100px;
+    margin-left: 26px;
+}
+ .nav .w ul li:hover a{
+     color: red;
+ }
+  .nav .w .nav_r{
+      float: right;
+      margin-top: 24px;
+  }
+   .nav .w .nav_r input{
+       width: 225px;
+       height: 50px;
+       float: left;
+   }
+   .nav .w .nav_r .nav_r_s{
+       width: 52px;
+       height: 52px;
+       border: 1px solid #999;
+       float: left;
+       font-size: 36px;
+       text-align: center;
+       line-height: 52px;
+       cursor: pointer;
+   }
+   .nav .w .nav_r .nav_r_s:hover{
+       background-color: #ff6700;
+   }
+.banner_l{
+  width: 20%;
+  height: 565.38px;
+  background-color: #306a82;
+  float: left;
+  padding: 20px 0;
+  box-sizing: border-box;   
+
+}
+.banner{
+    overflow: hidden;
+}
+.banner_l ul li {
+  line-height: 53px;
+}
+.banner_l ul li  a{
+  display: block;
+  height: 53px; 
+  color: #fff;
+  padding: 0 35px;
+}
+.banner_l ul li a:hover {
+  background-color: #6bc9ee;
+}
+.banner_l ul li a span {
+  float: right;
+}
+.banner_r{
+  width: 80%;
+  float: left;
+  /*margin-bottom: 5px;*/
+}
+.banner_r img{
+  width: 100%;
+ /* margin-bottom: 10px;*/
+}
+.banner_b{
+    margin-bottom:50px;
+    overflow: hidden; 
+}
+
+.banner_b img{
+    width: 25%;
+    float: left;
+    margin: top 1%;
+}
+.cp{
+    padding: 50px 0;
+    background-color: #bdc180;
+    overflow:hidden;
+}
+.cp .cp_t{
+    margin-bottom: 20px
+}
+.cp .cp_t a:nth-child(1){
+    font-size: 21px;
+}
+.cp .cp_t a:nth-child(2){
+    float: right;
+}
+.cp .cp_l{
+    float: left;
+}
+.cp .cp_r ul li{
+    width: 312px;
+    margin-left: 10px;
+    height: 302px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+}
+.cp .cp_r ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px #5f613f;
+}
+.cp .cp_r ul li img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+.cp .cp_r ul li p {
+    color: #999;
+    margin: 10px 0 20px 0;
+}
+.cp .cp_r ul li span {
+    color: red;
+}
+.cp .cp_r ul li span del {
+    color: #999;
+}
+.cp .cp_r ul li div {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+    background-color: orange;
+    color: #999;
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+}
+.help{
+    padding: 60px 0 40px 0;
+    overflow: hidden;
+   
+}
+.help .w .help_l{
+    width: 80%;
+}
+.help .w .help_r{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.help .w .help_r h2{
+    font-size: 35px;
+    color: orange;
+    
+}
+.help .w .help_l div {
+    float: left;
+    width: 16.6%;
+}
+.help .w .help_l div:last-child{
+    border-right: 1px solid #999;
+}
+.help .w .help_l div h4 {
+    margin-bottom: 30px;
+}
+.help .w .help_l div p {
+    margin-bottom: 17px;
+    color: #999;
+}
+
+.footer{
+    padding: 30px 0 35px 0;
+    background-color: #bdc180;
+    overflow: hidden;
+}
+.footer .w .footer_l{
+    float: left;
+}
+.footer .w .footer_r{
+    float: left;
+    margin-left: 15px;
+}
+.footer .w .footer_r p {
+    font-size: 14px;
+
+}
+.footer .w .footer_r p:nth-child(2) .footer .w .footer_r p:nth-child(3){
+    color: #999;
+}
+h1{
+    text-align: center;
+    color: #999;
+    font-family: 宋体;
+    background-color: #bdc999;
+    padding-bottom: 20px;
+}
